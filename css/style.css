@@ -1,0 +1,47 @@
+body {
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 20em;
+    height: 35em;
+    background-color: red; 
+    border-radius: 0.8em 0.8em 3em 3em;
+    
+ }
+.top{
+    height: 16em;
+    background-color: blueviolet;
+}
+.borderscreen{
+    width: 17.6em;
+    height: 15em;
+    background-color: yellowgreen;
+    margin: 1.2em 1.2em 0 1.2em;
+    border-radius: 0.5em;
+}
+
+.middle{
+    height: 10em;
+    background-color: blue;
+}
+.bottom{
+    height: 8em;
+    
+}
+.bottomTop{
+    height: 6.5em;
+    background-color: green;
+}
+.curve{
+    height:1.5em;
+    background-color: orangered;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius:50% ;
+}
+
