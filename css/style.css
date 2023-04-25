@@ -81,6 +81,32 @@ body {
 .bottom{
     height: 8em;
     background-color: green;
+    display: flex;
+}
+.emptyLeft{
+    width: 7em;
+    height: 8em;
+    background-color: blue;
+}
+.bottomMiddle{
+    width: 7em;
+    height: 8em;
+    background-color: skyblue;
+}
+.ovalButton{
+    width: 7em;
+    height: 3em;
+    background-color: plum;
+}
+.emptyBottom{
+    width: 7em;
+    height: 5em;
+    background-color: purple;
+}
+.dots{
+    width: 7em;
+    height: 8em;
+    background-color: cornflowerblue;
 }
 
 
