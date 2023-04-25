@@ -14,7 +14,7 @@ body {
     border-radius: 0.8em 0.8em 3em 3em;
  }
 
-/* Estructura del top*/
+/* Estructura de la pantalla*/
 .top{
     height: 17.2em; 
     background-color: transparent;
@@ -48,36 +48,55 @@ body {
     height: 11em;
     background-color: grey; 
 }
+/*Estructura del logo*/
+.logo{
+    width: 21em;
+    height: 3em;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.nintendo{
+    width: 5em;
+    height: 1.2em;
+    border-radius: 1em;
+    border: 0.15em solid rgb(245, 95, 95);
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: rgb(245, 95, 95);
+}
 
-/* Estructura del middle*/
+/* Estructura del medio*/
 .middle{
-    height: 10em;
+    height: 7em;
     background-color: blue;
     display: flex;
 }
 .cross{
     width: 9em;
-    height: 10em;
+    height: 7em;
     background-color: yellowgreen;
 }
 .emptyMiddle{
     width: 4em;
-    height: 10em;
+    height: 7em;
     background-color: yellow;
 }
 .circularButton1, .circularButton2{
     width: 2.5em;
-    height: 10em;
+    height: 7em;
     background-color: orange;
 }
 .emptyRight{
     width: 1.5em;
-    height: 10em;
+    height: 7em;
     background-color: orangered;
 }
 
 
-/* Estructura del bottom*/
+/* Estructura de la parte inferior*/
 .bottom{
     height: 8em;
     background-color: green;
