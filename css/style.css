@@ -8,40 +8,59 @@ body {
     align-items: center;
 }
 .main{
-    width: 20em;
+    width: 22em;
     height: 35em;
     background-color: red; 
     border-radius: 0.8em 0.8em 3em 3em;
-    
  }
+
+
+/* Estructura del top*/
 .top{
-    height: 16em;
-    background-color: blueviolet;
+    height: 17.2em; 
+    background-color: transparent;
 }
-.borderscreen{
-    width: 17.6em;
-    height: 15em;
-    background-color: yellowgreen;
+.borderScreen{
+    width: 19.6em;
+    height: 16em;
+    background-color: black;
     margin: 1.2em 1.2em 0 1.2em;
-    border-radius: 0.5em;
+    border-radius: 0.6em 0.6em 1em 1em;
+    display: inline-flex;
+}
+.borderRight, .borderLeft{
+    width: 3.3em;
+    height: 16em;
+}
+.center{
+    width: 13em;
+    height: 16em;
+}
+.borderTop{
+    width: 13em;
+    height: 2em;
+}
+.borderBottom{
+    width: 13em;
+    height: 3em;
+}
+.screen{
+    width: 13em;
+    height: 11em;
+    background-color: grey; 
 }
 
+
+/* Estructura del middle*/
 .middle{
     height: 10em;
-    background-color: blue;
+    background-color: transparent;
 }
+
+/* Estructura del bottom*/
 .bottom{
     height: 8em;
-    
+    background-color: transparent;
 }
-.bottomTop{
-    height: 6.5em;
-    background-color: green;
-}
-.curve{
-    height:1.5em;
-    background-color: orangered;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius:50% ;
-}
+
 
