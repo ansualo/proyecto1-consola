@@ -8,12 +8,11 @@ body {
     align-items: center;
 }
 .main{
-    width: 22em;
+    width: 21em;
     height: 35em;
     background-color: red; 
     border-radius: 0.8em 0.8em 3em 3em;
  }
-
 
 /* Estructura del top*/
 .top{
@@ -21,7 +20,7 @@ body {
     background-color: transparent;
 }
 .borderScreen{
-    width: 19.6em;
+    width: 18.6em;
     height: 16em;
     background-color: black;
     margin: 1.2em 1.2em 0 1.2em;
@@ -31,36 +30,57 @@ body {
 .borderRight, .borderLeft{
     width: 3.3em;
     height: 16em;
-}
+} 
 .center{
-    width: 13em;
+    width: 12em;
     height: 16em;
 }
 .borderTop{
-    width: 13em;
+    width: 12em;
     height: 2em;
 }
 .borderBottom{
-    width: 13em;
+    width: 12em;
     height: 3em;
 }
 .screen{
-    width: 13em;
+    width: 12em;
     height: 11em;
     background-color: grey; 
 }
 
-
 /* Estructura del middle*/
 .middle{
     height: 10em;
-    background-color: transparent;
+    background-color: blue;
+    display: flex;
 }
+.cross{
+    width: 9em;
+    height: 10em;
+    background-color: yellowgreen;
+}
+.emptyMiddle{
+    width: 4em;
+    height: 10em;
+    background-color: yellow;
+}
+.circularButton1, .circularButton2{
+    width: 2.5em;
+    height: 10em;
+    background-color: orange;
+}
+.emptyRight{
+    width: 1.5em;
+    height: 10em;
+    background-color: orangered;
+}
+
 
 /* Estructura del bottom*/
 .bottom{
     height: 8em;
-    background-color: transparent;
+    background-color: green;
 }
 
 
