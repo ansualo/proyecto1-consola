@@ -88,7 +88,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-.black, .white{
+.arrow, .empty{
     width: 1.9em;
     height: 1.85em;
     margin:0;
@@ -98,7 +98,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.black{
+.arrow{
     background-color: rgb(39, 39, 39);
     box-shadow: inset 0.2em white;
 }
@@ -175,8 +175,31 @@ body {
     height: 4em;
   
 }
-.dots{
+.aroundDots{
     width: 7em;
     height: 9em;
-    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.dots{
+    width: 5em;
+    height: 5em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    transform: rotate(-5deg);
+}
+.black, .white{
+    width: 0.38em;
+    height: 0.38em;
+    border-radius:50%;
+}
+.black{
+    background-color: rgba(45, 42, 42, 0.93);
+}
+.white{
+    background-color:rgba(166, 78, 78, 0.356)
 }
