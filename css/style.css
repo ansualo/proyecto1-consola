@@ -10,7 +10,7 @@ body {
 .main{
     width: 21em;
     height: 35em;
-    background-color: red; 
+    background-color: lightcoral; 
     border-radius: 0.8em 0.8em 3em 3em;
  }
 
@@ -74,14 +74,39 @@ body {
     background-color: blue;
     display: flex;
 }
-.cross{
-    width: 9em;
+.aroundCross{
+    width: 8em;
     height: 7em;
     background-color: yellowgreen;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.cross{
+    width: 5em;
+    height: 5em;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.black, .white{
+    width: 1.9em;
+    height: 1.85em;
+    margin:0;
+    background-color: lightcoral;
+    color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    background-color: rgb(39, 39, 39);
+    box-shadow: inset 0.2em white;
 }
 .emptyMiddle{
-    width: 4em;
-    height: 7em;
+    width: 5em;
+    height: 8em;
     background-color: yellow;
 }
 .circularButton1, .circularButton2{
