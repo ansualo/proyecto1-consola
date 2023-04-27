@@ -10,7 +10,7 @@ body {
 .main{
     width: 21em;
     height: 36em;
-    background-color: lightcoral; 
+    background-image: linear-gradient(to bottom, rgb(200, 75, 75), lightcoral, rgb(200, 75, 75));
     border: 0.1em outset rgba(0, 0, 0, 0.44);
     border-radius: 30em/7em;
     border-top-left-radius: 2em;
@@ -64,7 +64,8 @@ body {
 .screen{
     width: 12em;
     height: 11em;
-    background-color: grey; 
+    /* background-color: grey;  */
+    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
 }
 /*Estructura del logo*/
 .logo{
@@ -78,11 +79,11 @@ body {
     width: 5.5em;
     height: 1.2em;
     border-radius: 1em;
-    border: 0.15em solid rgb(245, 95, 95);
+    border: 0.15em solid rgba(200, 75, 75, 0.745);
     text-align: center;
     font-family:sans-serif;
     font-weight: bold;
-    color: rgb(245, 95, 95);
+    color: rgba(200, 75, 75, 0.745);
 }
 
 /* Estructura del medio*/
@@ -162,7 +163,7 @@ body {
 .buttonB, .buttonA{
     width: 1.2em;
     height: 1.2em;
-    background-color: rgb(39, 39, 39) ;
+    background-image: linear-gradient(to right, rgb(57, 57, 57), rgb(39, 39, 39));
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -204,7 +205,7 @@ body {
     margin: 1.8em 0 0.6em 0;
     background-color: black;
     border-radius: 2em;
-    box-shadow: 0 0 0 0.2em rgba(166, 78, 78, 0.668);
+    box-shadow: 0 0 0 0.2em rgba(171, 66, 66, 0.881);
 }
 .selectText, .startText{
     width: 1em;
@@ -212,7 +213,7 @@ body {
     font-family: sans-serif;
     font-size: 0.8em;
     font-weight: bold;
-    color: rgb(245, 95, 95);
+    color: rgba(171, 66, 66, 0.881);
     margin-left: -0.4em;
 }
 .emptyBottom{
@@ -246,6 +247,6 @@ body {
     border: 0.01em inset rgba(245, 95, 95, 0.899);
 }
 .white{
-    background-color: rgba(227, 121, 121, 0.888);
-    border: 0.08em inset rgba(245, 95, 95, 0.899);
+    background-color: rgba(184, 73, 73, 0.881);
+    border: 0.08em inset rgba(171, 66, 66, 0.881);
 }
