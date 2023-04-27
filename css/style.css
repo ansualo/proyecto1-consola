@@ -12,11 +12,11 @@ body {
     height: 35em;
     background-color: lightcoral; 
     border-radius: 0.8em 0.8em 3em 3em;
- }
+}
 
 /* Estructura de la pantalla*/
 .top{
-    height: 17.2em; 
+    height: 16.2em; 
     background-color: transparent;
 }
 .borderScreen{
@@ -25,23 +25,27 @@ body {
     background-color: black;
     margin: 1.2em 1.2em 0 1.2em;
     border-radius: 0.6em 0.6em 1em 1em;
-    display: inline-flex;
+}
+.borderTop{
+    width: 18.6em;
+    height: 2em;
+} 
+.borderBottom{
+    width: 18.6em;
+    height: 3.8em;
+    border-radius: 60em/8em;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    background-color: black;
+} 
+.center{
+    width: 18.6em;
+    height: 11em;
+    display: flex;
 }
 .borderRight, .borderLeft{
     width: 3.3em;
-    height: 16em;
-} 
-.center{
-    width: 12em;
-    height: 16em;
-}
-.borderTop{
-    width: 12em;
-    height: 2em;
-}
-.borderBottom{
-    width: 12em;
-    height: 3em;
+    height: 11em;
 }
 .screen{
     width: 12em;
@@ -52,7 +56,7 @@ body {
 .logo{
     width: 21em;
     height: 3em;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -83,7 +87,7 @@ body {
 .cross{
     width: 5em;
     height: 5em;
-    margin: 0;
+    margin-left: 0.5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -190,7 +194,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    transform: rotate(-5deg);
+    transform: skewX(6deg);
 }
 .black, .white{
     width: 0.38em;
