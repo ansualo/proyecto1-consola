@@ -11,9 +11,11 @@ body {
     width: 21em;
     height: 36em;
     background-color: lightcoral; 
+    border: 0.1em outset rgba(0, 0, 0, 0.44);
     border-radius: 30em/7em;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
+    box-shadow: 8px 8px 7px -1px rgba(0,0,0,0.65);
 }
 
 /* Estructura de la pantalla*/
@@ -39,7 +41,17 @@ body {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
+.color{
+    width: 10.4em;
+    height: 1.7em;
+    background-image: url(../img/logo-color.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .center{
     width: 18.6em;
     height: 11em;
@@ -63,7 +75,7 @@ body {
     align-items: end;
 }
 .nintendo{
-    width: 5em;
+    width: 5.5em;
     height: 1.2em;
     border-radius: 1em;
     border: 0.15em solid rgb(245, 95, 95);
@@ -75,29 +87,25 @@ body {
 
 /* Estructura del medio*/
 .middle{
-    height: 6em;
+    height: 7em;
     display: flex;
 }
 .aroundCross{
     width: 8em;
-    height: 6em;
+    height: 7em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 .cross{
-    width: 5em;
-    height: 5em;
+    width: 5.5em;
+    height: 5.5em;
     margin-left: 0.5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 .arrow, .empty{
-    width: 1.9em;
-    height: 1.85em;
-    margin:0;
-    background-color: lightcoral;
     color: rgb(21, 20, 20);
     display: flex;
     justify-content: center;
@@ -106,10 +114,40 @@ body {
 .arrow{
     background-color: rgb(39, 39, 39);
     box-shadow: inset 0.2em white;
+    box-sizing: border-box;
+}
+.arrowTop{
+    border-top: solid 0.2em rgb(22, 22, 22);
+    border-left: solid 0.2em rgb(22, 22, 22);
+    border-right: solid 0.2em rgb(22, 22, 22);
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+}
+.arrowLeft{
+    border-top: solid 0.2em rgb(22, 22, 22);
+    border-left: solid 0.2em rgb(22, 22, 22);
+    border-bottom: solid 0.2em rgb(22, 22, 22);
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+.arrowBottom{
+    border-bottom: solid 0.2em rgb(22, 22, 22);
+    border-left: solid 0.2em rgb(22, 22, 22);
+    border-right: solid 0.2em rgb(22, 22, 22);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.arrowRight{
+    border-top: solid 0.2em rgb(22, 22, 22);
+    border-right: solid 0.2em rgb(22, 22, 22);
+    border-bottom: solid 0.2em rgb(22, 22, 22);
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    
 }
 .emptyMiddle{
     width: 5em;
-    height: 6em;
+    height: 7em;
 }
 .aroundButtonB, .aroundButtonA{
     width: 2.5em;
@@ -130,6 +168,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+    border: 0.01em solid rgba(0, 0, 0, 0.844);
+    border-right: 0.08em solid rgba(0, 0, 0, 0.864);
 }
 .emptyRight{
     width: 1.5em;
@@ -139,7 +179,7 @@ body {
 
 /* Estructura de la parte inferior*/
 .bottom{
-    height: 9em;
+    height: 8em;
     display: flex;
 }
 .emptyLeft{
@@ -148,12 +188,12 @@ body {
 }
 .bottomMiddle{
     width: 7em;
-    height: 9em;
+    height: 8em;
 }
+
 .ovalButtons{
     width: 7em;
-    height: 5em;
-    background-color:lightcoral;
+    height: 4em;
     display: flex;
     justify-content: space-around;
     align-items: end;
@@ -182,8 +222,7 @@ body {
 }
 .aroundDots{
     width: 7em;
-    height: 9em;
-
+    height: 8em;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -198,13 +237,15 @@ body {
     transform: rotate(-7deg);
 }
 .black, .white{
-    width: 0.38em;
-    height: 0.38em;
+    width: 0.37em;
+    height: 0.37em;
     border-radius:50%;
 }
 .black{
-    background-color: rgba(45, 42, 42, 0.93);
+    background-color: rgba(45, 42, 42, 0.977);
+    border: 0.01em inset rgba(245, 95, 95, 0.899);
 }
 .white{
-    background-color:rgba(166, 78, 78, 0.356)
+    background-color: rgba(227, 121, 121, 0.888);
+    border: 0.08em inset rgba(245, 95, 95, 0.899);
 }
