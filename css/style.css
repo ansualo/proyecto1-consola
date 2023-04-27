@@ -9,9 +9,11 @@ body {
 }
 .main{
     width: 21em;
-    height: 35em;
+    height: 36em;
     background-color: lightcoral; 
-    border-radius: 0.8em 0.8em 3em 3em;
+    border-radius: 30em/7em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
 }
 
 /* Estructura de la pantalla*/
@@ -56,7 +58,6 @@ body {
 .logo{
     width: 21em;
     height: 3em;
-    /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -194,7 +195,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    transform: skewX(6deg);
+    transform: rotate(-7deg);
 }
 .black, .white{
     width: 0.38em;
