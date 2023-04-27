@@ -177,6 +177,22 @@ body {
     height: 7em;
 }
 
+.buttonB:hover, .buttonA:hover{
+    background-image: linear-gradient(to right, rgb(110, 110, 110), rgb(39, 39, 39));
+    width: 1.1em;
+    height: 1.1em;
+}
+.selectButton:hover, .startButton:hover{
+    width: 1.9em;
+    height: 0.6em;
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+}
+.arrow:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+
+
 
 /* Estructura de la parte inferior*/
 .bottom{
