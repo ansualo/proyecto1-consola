@@ -67,9 +67,17 @@ body {
 .screen{
     width: 12em;
     height: 11em;
-    /* background-color: grey;  */
     background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
 }
+.screenOn1{
+    background-image: url(../img/nintendoLogo.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+
+
+
 /*Estructura del logo*/
 .logo{
     width: 21em;

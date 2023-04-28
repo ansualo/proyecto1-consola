@@ -1,5 +1,5 @@
 function encenderPantalla(){
-    let screen = document.getElementById("idScreen");
-    screen.classList.add("screenOn");
+    let screen = document.getElementById("screenOn");
+    screen.classList.add("screenOn1");
     
 }
