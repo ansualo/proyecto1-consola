@@ -76,12 +76,36 @@ body {
     height: 11em;
     background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
 }
+.redLight{
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(181, 1, 1), rgb(72, 2, 2));;
+    color: white;
+    margin: 2em 0 0em 0.5em;
+}
+
+.halfCircle{
+    color: rgb(52, 51, 51);
+    font-size: x-small;
+    margin-left: 2em;
+    margin-top: -1em;
+}
+.power{
+    color: rgb(52, 51, 51);
+    font-size: xx-small;
+    font-weight: bold;
+    margin: 0.5em 0 0 1em;
+}
+
+
 .turnOn{
     background-image: url(../img/nintendoLogo.gif);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white;
 }
+
 
 
 
