@@ -6,6 +6,12 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(85, 135, 216, 0.73);
+    background-image: url(../img/fondoBody.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
 }
 .main{
     width: 21em;
