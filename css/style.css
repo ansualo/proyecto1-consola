@@ -32,9 +32,6 @@ body {
 
 /* Screen---------------------------------------------------------------------------------------------------------------*/
 .top{
-    height: 16.2em;
-}
-.borderScreen{
     width: 18.6em;
     height: 16em;
     background-color: black;
