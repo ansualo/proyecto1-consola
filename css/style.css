@@ -1,9 +1,9 @@
 body {
-    width:100vw;
-    height:100vh;
-    overflow:hidden;
-    margin:0;
-    display:flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(85, 135, 216, 0.73);
@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-   
 }
 .main{
     width: 21em;
@@ -21,15 +20,17 @@ body {
     border-radius: 30em/7em;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
-    box-shadow: 8px 8px 7px -1px rgba(0,0,0,0.65);
+    box-shadow: 0.8em 0.8em 0.5em -0.1em rgba(0,0,0,0.65);
 }
+
+/* This part belongs to the javascript function to make the console transparent-----------------------------------------*/
 .makeTransparent{
     background-image: url(../img/transparent.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Estructura de la pantalla*/
+/* Screen---------------------------------------------------------------------------------------------------------------*/
 .top{
     height: 16.2em;
 }
@@ -84,7 +85,6 @@ body {
     color: white;
     margin: 2em 0 0em 0.5em;
 }
-
 .halfCircle{
     color: rgb(52, 51, 51);
     font-size: x-small;
@@ -98,7 +98,7 @@ body {
     margin: 0.5em 0 0 1em;
 }
 
-
+/* This part belongs to the javascript function to show the start video-----------------------------------------------------*/
 .turnOn{
     background-image: url(../img/nintendoLogo.gif);
     background-repeat: no-repeat;
@@ -107,9 +107,7 @@ body {
 }
 
 
-
-
-/*Estructura del logo*/
+/* Logo---------------------------------------------------------------------------------------------------------------------*/
 .logo{
     width: 21em;
     height: 3em;
@@ -128,18 +126,19 @@ body {
     color: rgba(200, 75, 75, 0.745);
 }
 
-/* Estructura del medio*/
+/* Middle section------------------------------------------------------------------------------------------------------------*/
 .middle{
     height: 7em;
     display: flex;
 }
+
+/* Cross buttons */
 .aroundCross{
     width: 8em;
     height: 7em;
     display: flex;
     align-items: start;
     justify-content: center;
-   
 }
 .cross{
     width: 5.5em;
@@ -148,7 +147,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-   
 }
 .arrow, .empty{
     color: rgb(21, 20, 20);
@@ -157,10 +155,7 @@ body {
     align-items: center;
 }
 .arrow{
-    /* background-color: rgb(39, 39, 39); */
     background-image: linear-gradient(to right, rgb(52, 52, 52), rgb(39, 39, 39));
-    box-shadow: inset 0.2em white;
-    box-sizing: border-box;
 }
 .arrowTop{
     border-top: solid 0.2em rgb(33, 33, 33);
@@ -180,9 +175,8 @@ body {
     border-bottom: solid 0.2em rgb(22, 22, 22);
     border-left: solid 0.2em rgb(60, 60, 60);
     border-right: solid 0.2em rgb(20, 20, 20);
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
 }
 .arrowRight{
     border-top: solid 0.2em rgb(60, 60, 60);
@@ -190,12 +184,14 @@ body {
     border-bottom: solid 0.2em rgb(20, 20, 20);
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;  
-      
 }
+
 .emptyMiddle{
     width: 5em;
     height: 7em;
 }
+
+/* Buttons A and B */
 .aroundButtonB, .aroundButtonA{
     width: 2.5em;
     height: 6em;
@@ -221,29 +217,29 @@ body {
  .buttonA{
      margin-bottom: 1.2em;
 }
+
 .emptyRight{
     width: 1.5em;
     height: 7em;
 }
 
+/* This part adds hover to all the buttons------------------------------------------------------------------------------------------ */
 .buttonB:hover, .buttonA:hover{
     background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
     width: 1.1em;
     height: 1.1em;
+}
+.arrow:hover{
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
 }
 .selectButton:hover, .startButton:hover{
     width: 1.9em;
     height: 0.6em;
     background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
 }
-.arrow:hover{
-    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
-}
 
 
-
-
-/* Estructura de la parte inferior*/
+/* Bottom section---------------------------------------------------------------------------------------------------------------------*/
 .bottom{
     height: 8em;
     display: flex;
@@ -257,20 +253,19 @@ body {
     height: 8em;
 }
 
+/* Buttons select and start*/
 .ovalButtons{
     width: 7em;
     height: 4em;
     display: flex;
     justify-content: space-around;
     align-items: end;
-
-  
 }
 .selectButton, .startButton{
     width: 2em;
     height: 0.7em;
     margin: 1.8em 0 0.6em 0.8em;
-    background-color: black;
+    background-color: rgb(12, 12, 12);
     border-radius: 2em;
     box-shadow: 0 0 0 0.2em rgba(171, 66, 66, 0.881);
 }
@@ -283,11 +278,13 @@ body {
     color: rgba(171, 66, 66, 0.881);
     margin-left: 0.6em;
 }
+
 .emptyBottom{
     width: 7em;
     height: 4em;
-  
 }
+
+/* Speaker*/
 .aroundDots{
     width: 7em;
     height: 8em;
