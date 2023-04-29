@@ -5,10 +5,10 @@
 
 # Videoconsola con CSS 
 
-###Tabla de contenidos 
+### Tabla de contenidos 
 
 - ¿Qué es?
-- ¿Como funciona?
+- ¿Cómo funciona?
 - Desarrollo y tecnologías usadas
 - Errores conocidos 
 - Créditos 
@@ -18,15 +18,15 @@
 
 ---
 
-###¿Qué es? 
+### ¿Qué es? 
 
 Se trata de una reproducción de la consola Game Boy Color, creada en un ámbito educativo para GeeksHubs Academy. En la siguiente imagen podemos apreciar su similitud con la original: 
 
-![image](img\both.png)
+![image](./img/both.png)
 
 ---
 
-###¿Como funciona? 
+### ¿Como funciona? 
 
 Al deslizar el cursor por los botones simulará que estos están siendo presionados.
 
@@ -34,7 +34,7 @@ Pulsando el botón **START** aparecerá en la pantalla una animación del arranq
 
 Pulsando el botón **SELECT** la consola se volverá transparente dejando ver su placa base. Esto es un guiño a la famosa Game Boy Atomic Purple con su funda transparente lanzada en los años 90. 
 
-![image](img\gameBoyTransparent.png)
+![image](./img/gameBoyTransparent.png)
 
  ---
 
@@ -48,11 +48,11 @@ Para dar un aspecto más realista también he utilizado propiedades de CSS como 
 
 Uno de los factores de mayor dificultad fue la utilización de sombras para darle una imagen lo más realista posible. 
 
-![image](img\display.png)
+![image](./img/display.png)
 
 ---
 
-###Errores conocidos 
+### Errores conocidos 
 
 Uno de los errores que me gustaría mejorar es el funcionamiento de JavaScrip para que se pudiera volver al estado original de la consola sin tener que refrescar la página. 
 
@@ -60,7 +60,7 @@ Otro detalle que podría ser mejorado es la cruceta, ya que actualmente se puede
 
 ---
 
-###Créditos 
+### Créditos 
 
 Este proyecto ha sido realizado por mí, Andrea Suárez, en abril de 2023. 
 
@@ -68,10 +68,9 @@ Este proyecto ha sido realizado por mí, Andrea Suárez, en abril de 2023.
 ---
 ---
 
+# Videoconsole with CSS 
 
-#Videoconsole with CSS 
-
-###Table of contents 
+### Table of contents 
 
 - What is it?
 - How does it work?
@@ -84,15 +83,15 @@ Este proyecto ha sido realizado por mí, Andrea Suárez, en abril de 2023.
 
 ---
 
-###What is it? 
+### What is it? 
 
 It is a reproduction of the Game Boy Color console, created in an educational environment for GeeksHubs Academy. In the following image we can appreciate its similarity to the original: 
 
-![image](img\both.png)
+![image](./img/both.png)
 
 ---
 
-###How does it work? 
+### How does it work? 
 
 By sliding the cursor over the buttons it will simulate that they are being pressed.
 
@@ -100,7 +99,7 @@ Pressing the **START** button will display an animation of the original console 
 
 Pressing the **SELECT** button will make the console transparent, revealing its motherboard. This is a nod to the famous Game Boy Atomic Purple with its transparent case released in the 90s. 
 
-![image](img\gameBoyTransparent.png)
+![image](./img/gameBoyTransparent.png)
 
  ---
 
@@ -114,11 +113,11 @@ To give a more realistic look I also used CSS properties like *background-image:
 
 One of the most difficult factors was the use of shadows to make the image as realistic as possible. 
 
-![image](img\display.png)
+![image](./img/display.png)
 
 ---
 
-###Known bugs 
+### Known bugs 
 
 One of the bugs I would like to improve is the way JavaScrip works so that you could return to the original state of the console without having to refresh the page. 
 
@@ -126,6 +125,6 @@ Another detail that could be improved is the cross button, as currently you can 
 
 ---
 
-###Credits 
+### Credits 
 
 This project has been made by me, Andrea Suárez, in April 2023.
