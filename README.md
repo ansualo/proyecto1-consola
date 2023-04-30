@@ -1,4 +1,4 @@
-*First in Spanish then in English*
+*First in Spanish then in* [*English*](https://github.com/ansualo/proyecto1-consola/edit/master/README.md#videoconsole-with-css)
 
 ---
 
@@ -14,7 +14,7 @@
 - Créditos 
 
  
-*Se puede acceder al proyecto a través de este link:  ansualo.github.io/proyecto1-consola/*
+*Puedes ver el proyecto* [*aquí.*](ansualo.github.io/proyecto1-consola/)
 
 ---
 
@@ -79,7 +79,7 @@ Este proyecto ha sido realizado por mí, Andrea Suárez, en abril de 2023.
 - Credits 
 
  
-*You can access the project through this link: ansualo.github.io/project1-console/*
+*You can view the project* [*here.*](ansualo.github.io/proyecto1-consola/)
 
 ---
 
@@ -119,7 +119,7 @@ One of the most difficult factors was the use of shadows to make the image as re
 
 ### Known bugs 
 
-One of the bugs I would like to improve is the way JavaScrip works so that you could return to the original state of the console without having to refresh the page. 
+One of the bugs I would like to fix is the way JavaScript works so that you could return to the original state of the console without having to refresh the page. 
 
 Another detail that could be improved is the cross button, as currently you can see the different divs that compose it instead of being a single button.  
 
