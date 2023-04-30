@@ -1,4 +1,4 @@
-*First in Spanish then in* [*English*](https://github.com/ansualo/proyecto1-consola/edit/master/README.md#videoconsole-with-css)
+*First in Spanish then in* [*English*](https://github.com/ansualo/proyecto1-consola#videoconsole-with-css)
 
 ---
 
